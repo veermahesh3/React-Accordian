@@ -1,0 +1,36 @@
+
+h1{
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.center{
+    width: 450px; 
+}
+.plus{
+    font-size: 25px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    padding:3px;
+    color: blue;
+    cursor: pointer;
+    /* background-color: aliceblue; */
+    border-radius: 50%;
+}
+.arrow{
+    color: blue;
+    font-weight: bold;
+}
+.main-heading{
+    background-color: bisque;
+}
+p{
+    transition: 0.3s ease;
+}
